@@ -1,0 +1,19 @@
+.error{
+    margin:25px auto;
+    width:100%;
+    max-width:600px;
+
+    padding:15px;
+
+    background:#dc2626;
+    color:white;
+
+    border-radius:10px;
+
+    text-align:center;
+
+    font-size:18px;
+
+    font-weight:bold;
+}
+

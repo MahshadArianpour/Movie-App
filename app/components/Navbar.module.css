@@ -1,0 +1,53 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 40px;
+
+    background:var(--nav);
+
+    color:white;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.links{
+    display:flex;
+    gap:30px;
+}
+
+.links a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.links a:hover{
+    color:#60a5fa;
+}
+
+.favorite{
+    color:#f87171 !important;
+}
+
+.themeBtn{
+    border:none;
+    background:none;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    color:white;
+
+    transition:.3s;
+}
+
+.themeBtn:hover{
+    transform:scale(1.15);
+}
